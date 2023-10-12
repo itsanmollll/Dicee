@@ -15,9 +15,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         diceeImageView1.image = UIImage(imageLiteralResourceName:"DiceSix")
-        diceeImageView1.alpha = 0.5
-        diceeImageView2.image = UIImage(imageLiteralResourceName:"DiceFour")
+        //diceeImageView1.alpha = 0.5
+        diceeImageView2.image = UIImage(imageLiteralResourceName:"DiceThree")
     }
     
     
+    @IBAction func rollButtonPressed(_ sender: UIButton) {
+        diceeImageView1.image = UIImage(imageLiteralResourceName: "DiceFive")
+        diceeImageView2.image = UIImage(imageLiteralResourceName: "DiceFour")
+    }
 }
