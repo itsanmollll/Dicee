@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 //    }
     
     
-    // Use of IBAction is to perform action that a attached to this button and perform the function , user can perform action to let it in work 
+    // Use of IBAction is to perform action that a attached to this button and perform the function , user can perform action to let it in work
     
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         //diceeImageView1.image = UIImage(imageLiteralResourceName: "DiceFive")
@@ -35,6 +35,6 @@ class ViewController: UIViewController {
         diceeImageView1.image = diceArray.randomElement()/*[Int.random(in: 0...5)]*/
 //        leftDiceNumber += 1
         diceeImageView2.image = diceArray.randomElement() /* This commented code do the same likr randomElement() do [Int.random(in: 0...5)]*/
-//        rightDiceNumber -= 1
+        rightDiceNumber -= 1
     }
 }
