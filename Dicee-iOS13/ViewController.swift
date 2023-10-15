@@ -35,6 +35,6 @@ class ViewController: UIViewController {
         diceeImageView1.image = diceArray.randomElement()/*[Int.random(in: 0...5)]*/
 //        leftDiceNumber += 1
         diceeImageView2.image = diceArray.randomElement() /* This commented code do the same likr randomElement() do [Int.random(in: 0...5)]*/
-        rightDiceNumber -= 1
+//        rightDiceNumber -= 1
     }
 }

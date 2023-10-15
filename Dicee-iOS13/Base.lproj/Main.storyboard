@@ -17,9 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="CHo-gv-Hwn">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="CHo-gv-Hwn">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="YIE-JJ-9b4">
                                 <rect key="frame" x="54" y="388" width="120" height="120"/>
@@ -49,6 +48,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="CHo-gv-Hwn" secondAttribute="bottom" id="4bl-Wg-Ij4"/>
+                            <constraint firstItem="CHo-gv-Hwn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="NRq-NH-2sX"/>
+                            <constraint firstItem="CHo-gv-Hwn" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="RY2-Kg-OZc"/>
+                            <constraint firstItem="CHo-gv-Hwn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="S5T-uF-ivF"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="diceeImageView1" destination="YIE-JJ-9b4" id="AkE-D1-5np"/>
